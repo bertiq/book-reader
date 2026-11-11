@@ -1,0 +1,20 @@
+# Private reading workspaces stay outside the framework's Git history.
+/books/
+# Original sources are local only, including in separate book repositories.
+**/book/
+!/templates/book/
+!/templates/book/**
+# Private transaction files and short-lived working inputs.
+**/.reader-*
+!**/.reader-book
+!**/.reader-template.html
+**/.reader.lock
+**/.reader-tmp-*
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.pyright/
+.DS_Store
+dist/

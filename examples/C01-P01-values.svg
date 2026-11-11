@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="220" viewBox="0 0 480 220" role="img" aria-labelledby="title desc">
+  <title id="title">Three values and their mean</title>
+  <desc id="desc">Bars show values 2, 4, and 6. A dashed line marks their mean of 4.</desc>
+  <rect width="480" height="220" fill="#ffffff"/>
+  <g fill="#2563eb">
+    <rect x="80" y="140" width="64" height="40"/>
+    <rect x="208" y="100" width="64" height="80"/>
+    <rect x="336" y="60" width="64" height="120"/>
+  </g>
+  <path d="M48 180H440" stroke="#334155" stroke-width="2"/>
+  <path d="M48 100H440" stroke="#9a3412" stroke-width="2" stroke-dasharray="6 4"/>
+  <g fill="#0f172a" font-family="sans-serif" font-size="16" text-anchor="middle">
+    <text x="112" y="202">2</text><text x="240" y="202">4</text><text x="368" y="202">6</text>
+  </g>
+  <text x="48" y="86" fill="#9a3412" font-family="sans-serif" font-size="16">Mean = 4</text>
+</svg>
